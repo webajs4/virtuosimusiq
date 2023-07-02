@@ -42,3 +42,29 @@ font-style: normal;
 font-weight: 400;
 line-height: 40px;
 }
+.headmn{
+    color: #FFF;
+text-align: center;
+font-size: 64px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 462px;
+position: absolute;
+top: 50%;
+right: 35%;
+}
+
+.headsb{
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+top: 85%;
+right: 38%;
+}
