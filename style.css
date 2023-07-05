@@ -100,3 +100,51 @@ border-radius: 69px;
 background: #3B3B3B;
 box-shadow: 0px 12px 19px 13px rgba(0, 0, 0, 0.25);
 }
+.lnp{
+    background: url("public/images/linebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.lnp h2{
+    color: #FFF;
+font-size: 64px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 75px;
+padding-left: 75px;
+padding-bottom: 14px;
+margin: 0;
+}
+.vara{
+    width: 48px;
+    height: 4px;
+    background: #FFF;
+    margin-left:75px;
+}
+.alkaar{
+    display: flex;
+    gap: 196px;
+    padding-left: 114px;
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+.indv{
+    border-radius: 49px;
+background: linear-gradient(174deg, rgba(98, 98, 98, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(360deg, #373737 0%, rgba(217, 217, 217, 0.00) 100%);
+backdrop-filter: blur(4.5px);
+padding: 30px 40px 30px 40px;
+}
+.indv p{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
