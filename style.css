@@ -105,6 +105,7 @@ box-shadow: 0px 12px 19px 13px rgba(0, 0, 0, 0.25);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    padding-bottom: 130px;
     
 }
 .lnp h2{
@@ -127,10 +128,10 @@ margin: 0;
 }
 .alkaar{
     display: flex;
-    gap: 196px;
-    padding-left: 114px;
+    gap: 136px;
+    padding-left: 220px;
     padding-top: 40px;
-    padding-bottom: 130px;
+    
 }
 .indv{
     border-radius: 49px;
