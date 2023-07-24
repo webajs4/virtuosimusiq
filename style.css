@@ -17,6 +17,7 @@ width: 100%;
 height: 127px;
 display: flex;
 gap: 680px;
+
 }
 .glass h2{margin: 0;
     color: #FFF;
@@ -164,6 +165,100 @@ font-weight: 500;
 line-height: 5px;
 }
 .stry p{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.tae{
+    background: url('public/images/tae.png');
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 74px;
+    padding-bottom: 200px;
+}
+.tae h3{
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 4px;
+}
+.taeb{
+    display: flex;
+    gap: 28px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.taebs{
+    display: flex;
+    gap: 28px;
+    padding-top: 35px;
+    padding-right: 93px;
+    padding-left: 21px;
+    padding-bottom: 33px;
+    border-radius: 27px;
+background: radial-gradient(79.92% 70.00% at 50.00% 50.00%, rgba(251, 251, 251, 0.20) 0%, rgba(251, 251, 251, 0.00) 100%), rgba(44, 44, 44, 0.65);
+backdrop-filter: blur(5px);
+}
+.taebs img{
+    object-fit: contain;
+}
+.taebsth{
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 5px;
+}
+.taebstp{
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 5px;
+}
+.btntae{
+    border-radius: 7px;
+background: #FFF;
+padding-left: 23px;
+padding-right: 23px;
+padding-top: 7px;
+padding-bottom: 7px;
+width: max-content;
+
+}
+.btntae a{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;;
+text-decoration: none;
+text-align: center;
+justify-content: center;
+}
+.foot{
+    padding-top: 83px;
+    padding-left: 90px;
+    padding-bottom: 80px;
+}
+.foot h3{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 5px;
+}
+.foot p{
     color: #000;
 font-family: Josefin Sans;
 font-size: 24px;
