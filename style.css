@@ -375,6 +375,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 padding-right: 0;
+padding-left: 15px;
 }
 .abt p{
     color: #FFF;
