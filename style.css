@@ -345,7 +345,7 @@ font-weight: 600;
 line-height: normal;
 position: absolute;
 top: 50%;
-right: 5%;
+right: 0;
 }
     .headsb{
         color: #FFF;
@@ -356,13 +356,15 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 position: absolute;
+width: 284px;
 top: 85%;
-right: 20%;
+right: 15%;
     }
     .abt{
         display: block;
         padding-left: 10px;
         padding-right: 10px;
+        width: auto;
     }
 .abt h3{
     color: #000;
@@ -372,6 +374,7 @@ font-size: 45px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-right: 0;
 }
 .abt p{
     color: #FFF;
@@ -386,7 +389,67 @@ width: auto;
     display: none;
 }
 .alkaar2{
-    display: flex;
+    display:flex;
+    padding: 8px 0px 0px 12px;
+    padding-top: 50px;
+    gap: 18px;
+    width: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
 }
+.alkaar2::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .alkaar2 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .tae h3{
+    line-height: normal;
    }
+   .taebsth {
+    line-height: normal;
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .taeb{
+    flex-direction: column;
+    padding-left: 0;
+   }
+   .taebs img{
+    width: 99px;
+height: 178px;
+flex-shrink: 0;
+object-fit: cover;
+border-radius: 20px;
+   }
+   .tae{
+    padding-left: 35px;
+   }
+   .taebstp{
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+   }
+   .foot h3{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   /*break*/
+   }
+  
   
