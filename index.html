@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="public/images/logoo.png">
+    <link rel="manifest" href="manifest.json">
     <title>Virtuosi Music Band</title>
 </head>
 <body>
@@ -228,6 +229,11 @@
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
+    </script>
+    <script> 
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js'); 
+        } 
     </script>
 </body>
 </html>
