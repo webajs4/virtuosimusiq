@@ -26,7 +26,7 @@
 <a href="#lnp">Line-Up</a>
 <a href="#taee">Tickets</a>
 <a href="http://www.google.com">Gallery</a>
-<img src="https://drive.google.com/uc?export=download&id=1_-8Hj1il_nyheGK5xTDszikwT8bbE3un" alt="logo">
+<img id="#install" src="https://drive.google.com/uc?export=download&id=1_-8Hj1il_nyheGK5xTDszikwT8bbE3un" alt="logo">
             </div>
         </div>
         <div id="mySidenav" class="sidenav">
@@ -243,6 +243,19 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js'); 
         } 
+    </script>
+    <script>
+        window.addEventListener('beforeinstallprompt', e => {
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+        // don't display install banner when installed
+        return e.preventDefault();
+    } else {
+        const btn = document.querySelector('#install')
+        btn.hidden = false;
+        btn.onclick = _ => e.prompt();
+        return e.preventDefault();
+    }
+});
     </script>
 </body>
 </html>
