@@ -329,6 +329,10 @@ padding-top: 20px;
     .sidenav a {font-size: 18px;}
     .hd{
     display: none;}
+    .thala{
+        background-size: cover;
+        height: 100vh;
+    }
     .icos{display: inline;}
     .glass h2{
         color: #FFF;
